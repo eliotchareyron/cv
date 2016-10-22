@@ -1,0 +1,33 @@
+#banner {
+	/*background-image: url("../img/home.jpg");*/
+	background-color:gray;
+	color: #fff;
+	cursor: default;
+	text-align: center;
+	} 
+
+body{
+	text-align:center;
+	}
+
+section {
+		background-color: white;
+		}
+
+article img {
+	width: 100%;
+	height: auto;
+	}
+
+h1,h2,h3,h4 {
+	text-align: center;
+	}
+
+
+/*smartphone */
+@import 'responsive/smartphone';
+/*tablette*/
+@import 'responsive/tablette';
+/*desktop*/	
+@import 'responsive/desktop';
+	
