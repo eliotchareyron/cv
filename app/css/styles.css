@@ -3,10 +3,13 @@
   background-color: gray;
   color: #fff;
   cursor: default;
-  text-align: center; }
+  text-align: center; 
+margin-top: 0px;}
 
 body {
-  text-align: center; }
+  text-align: center;
+  border :1px black solid;
+  border-radius: 10px; }
 
 section {
   background-color: white; }
@@ -17,6 +20,9 @@ article img {
 
 h1, h2, h3, h4 {
   text-align: center; }
+  header nav ul {
+    margin-top: 0px;
+  }
 
 /*smartphone */
 header nav ul li {
@@ -55,6 +61,7 @@ article {
     text-align: center;
     text-decoration: none;
     font-size: 23px; }
+
   header nav ul li {
     display: inline-block;
     margin: 5px; }
