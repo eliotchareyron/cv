@@ -11,6 +11,30 @@ body {
   border :1px black solid;
   border-radius: 10px; }
 
+header nav  {
+  text-align: center;
+  color: #fff;
+margin-top: 0px;;
+}
+
+
+#nav {
+position: fixed;
+ }
+
+ #nav ul {
+  text-align: center;
+ }
+
+  header nav ul li {
+    display: inline-block;
+    margin: 5px; }
+
+  header nav ul li a {
+    text-decoration: none;
+    color: black; 
+
+}
 section {
   background-color: white; }
 
@@ -57,14 +81,19 @@ article {
     display: inline-block;
     width: 29%;
     margin: 10px; }
+
   header nav ul {
     text-align: center;
     text-decoration: none;
     font-size: 23px; }
-
   header nav ul li {
-    display: inline-block;
     margin: 5px; }
   header nav ul li a {
     text-decoration: none;
-    color: black; } }
+    color: black; } 
+header  h2 {
+  margin-top: 0px;
+
+}
+
+}
