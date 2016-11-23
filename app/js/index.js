@@ -1,5 +1,5 @@
 // listen for scroll
-var positionElementInPage = $('#header').offset().top;
+var positionElementInPage = $('#nav').offset().top;
 $(window).scroll(
 	function() {
 		if ($(window).scrollTop() &gt;= positionElementInPage) {
