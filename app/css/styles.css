@@ -1,12 +1,13 @@
 #banner {
   background-color: grey;
   width: 100%;
-  border-radius: 10px;
   color: #fff;
-  cursor: default;
   text-align: center; 
-margin-top: 0px;}
-
+margin-top: 0px;
+}
+#presentation {
+  margin-top: 60px;
+}
 span p {
 
   margin : 0px;
@@ -15,17 +16,12 @@ body {
   text-align: center;
   border-radius: 10px; }
 
-#banner #nav {
-background-color: grey;
-    border-radius: 10px;
-}
 #nav {
 position: fixed;
-    width: 100%;
+    width:100%;
     display: block;
     margin: 0 auto;
     justify-content: space-around;
-
 }
 
 header nav ul {
@@ -88,12 +84,9 @@ header  h2 {
   margin-top: 0px;
 
 }
-
-
+  
  header ul li a {
   text-align: center;
  }
-
-
 
 }
